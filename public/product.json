@@ -1,0 +1,373 @@
+[
+    {
+        
+            "productName": "Stylish Jacket",
+            "productImage": "image1.jpg",
+            "description": "A stylish and warm jacket perfect for winter.",
+            "price": 59.99,
+            "category": "Clothing",
+            "ratings": 4.5,
+            "creationDate": "2024-08-15T10:00:00Z"
+          
+    },
+    {
+        "productName": "Elegant Silk Scarf",
+        "productImage": "image2.jpg",
+        "description": "A luxurious scarf made from 100% silk.",
+        "price": 29.99,
+        "category": "Accessories",
+        "ratings": 4.8,
+        "creationDate": "2024-08-12T14:30:00Z"
+      },
+      {
+        "productName": "Vintage Denim Jacket",
+        "productImage": "image3.jpg",
+        "description": "A classic denim jacket with a vintage look.",
+        "price": 75.00,
+        "category": "Clothing",
+        "ratings": 4.6,
+        "creationDate": "2024-08-10T12:15:00Z"
+      },
+      {
+        "productName": "Modern Tote Bag",
+        "productImage": "image4.jpg",
+        "description": "A spacious and stylish tote bag for everyday use.",
+        "price": 49.99,
+        "category": "Bags",
+        "ratings": 4.4,
+        "creationDate": "2024-08-08T09:20:00Z"
+      },
+      {
+        "productName": "Gold-Plated Necklace",
+        "productImage": "image5.jpg",
+        "description": "A beautiful necklace with a gold-plated finish.",
+        "price": 39.99,
+        "category": "Jewelry",
+        "ratings": 4.9,
+        "creationDate": "2024-08-05T16:45:00Z"
+      },
+      {
+        "productName": "Running Sneakers",
+        "productImage": "image6.jpg",
+        "description": "Comfortable and lightweight sneakers for running.",
+        "price": 64.99,
+        "category": "Footwear",
+        "ratings": 4.3,
+        "creationDate": "2024-08-03T11:10:00Z"
+      },
+      {
+        "productName": "Leather Handbag",
+        "productImage": "image7.jpg",
+        "description": "A chic leather handbag for everyday use.",
+        "price": 129.99,
+        "category": "Bags",
+        "ratings": 4.6,
+        "creationDate": "2024-08-01T14:00:00Z"
+      },
+      {
+        "productName": "Casual Cotton T-Shirt",
+        "productImage": "image8.jpg",
+        "description": "A comfortable and breathable cotton t-shirt.",
+        "price": 19.99,
+        "category": "Clothing",
+        "ratings": 4.2,
+        "creationDate": "2024-07-29T10:05:00Z"
+      },
+      {
+        "productName": "Silver Hoop Earrings",
+        "productImage": "image9.jpg",
+        "description": "Elegant silver hoop earrings for any occasion.",
+        "price": 24.99,
+        "category": "Jewelry",
+        "ratings": 4.7,
+        "creationDate": "2024-07-27T13:30:00Z"
+      },
+      {
+        "productName": "Winter Wool Coat",
+        "productImage": "image10.jpg",
+        "description": "A warm and cozy wool coat for winter.",
+        "price": 149.99,
+        "category": "Clothing",
+        "ratings": 4.8,
+        "creationDate": "2024-07-25T17:20:00Z"
+      },
+      {
+        "productName": "Stylish Fedora Hat",
+        "productImage": "image11.jpg",
+        "description": "A trendy fedora hat to complement any outfit.",
+        "price": 34.99,
+        "category": "Accessories",
+        "ratings": 4.5,
+        "creationDate": "2024-08-15T10:00:00Z"
+      },
+      {
+        "productName": "Leather Belt",
+        "productImage": "image12.jpg",
+        "description": "A high-quality leather belt for a polished look.",
+        "price": 25.99,
+        "category": "Accessories",
+        "ratings": 4.4,
+        "creationDate": "2024-08-13T09:45:00Z"
+      },
+      {
+        "productName": "Graphic Tee",
+        "productImage": "image13.jpg",
+        "description": "A comfortable t-shirt with a stylish graphic design.",
+        "price": 19.99,
+        "category": "Clothing",
+        "ratings": 4.6,
+        "creationDate": "2024-08-11T08:30:00Z"
+      },
+      {
+        "productName": "Canvas Backpack",
+        "productImage": "image14.jpg",
+        "description": "A durable canvas backpack for everyday use.",
+        "price": 45.00,
+        "category": "Bags",
+        "ratings": 4.7,
+        "creationDate": "2024-08-09T07:15:00Z"
+      },
+      {
+        "productName": "Ankle Boots",
+        "productImage": "image15.jpg",
+        "description": "Stylish ankle boots with a comfortable fit.",
+        "price": 89.99,
+        "category": "Footwear",
+        "ratings": 4.3,
+        "creationDate": "2024-08-07T06:00:00Z"
+      },
+      {
+        "productName": "Statement Necklace",
+        "productImage": "image16.jpg",
+        "description": "A bold necklace that makes a statement.",
+        "price": 39.99,
+        "category": "Jewelry",
+        "ratings": 4.8,
+        "creationDate": "2024-08-05T05:45:00Z"
+      },
+      {
+        "productName": "Striped Sweater",
+        "productImage": "image17.jpg",
+        "description": "A cozy striped sweater perfect for chilly days.",
+        "price": 59.99,
+        "category": "Clothing",
+        "ratings": 4.7,
+        "creationDate": "2024-08-03T04:30:00Z"
+      },
+      {
+        "productName": "Aviator Sunglasses",
+        "productImage": "image18.jpg",
+        "description": "Classic aviator sunglasses for a cool look.",
+        "price": 29.99,
+        "category": "Accessories",
+        "ratings": 4.5,
+        "creationDate": "2024-08-01T03:15:00Z"
+      },
+      {
+        "productName": "Leather Wallet",
+        "productImage": "image19.jpg",
+        "description": "A sleek leather wallet with multiple compartments.",
+        "price": 49.99,
+        "category": "Accessories",
+        "ratings": 4.9,
+        "creationDate": "2024-07-30T02:00:00Z"
+      },
+      {
+        "productName": "Wool Scarf",
+        "productImage": "image20.jpg",
+        "description": "A warm wool scarf perfect for cold weather.",
+        "price": 24.99,
+        "category": "Accessories",
+        "ratings": 4.6,
+        "creationDate": "2024-07-28T01:45:00Z"
+      },
+      {
+        "productName": "Classic Trench Coat",
+        "productImage": "image21.jpg",
+        "description": "A timeless trench coat perfect for all seasons.",
+        "price": 129.99,
+        "category": "Clothing",
+        "ratings": 4.7,
+        "creationDate": "2024-08-15T10:00:00Z"
+      },
+      {
+        "productName": "Casual Sneakers",
+        "productImage": "image22.jpg",
+        "description": "Comfortable sneakers for everyday wear.",
+        "price": 59.99,
+        "category": "Footwear",
+        "ratings": 4.4,
+        "creationDate": "2024-08-13T09:30:00Z"
+      },
+      {
+        "productName": "Leather Shoulder Bag",
+        "productImage": "image23.jpg",
+        "description": "A chic shoulder bag made from high-quality leather.",
+        "price": 89.99,
+        "category": "Bags",
+        "ratings": 4.8,
+        "creationDate": "2024-08-11T08:15:00Z"
+      }, 
+      {
+        "productName": "Wool Beanie",
+        "productImage": "image24.jpg",
+        "description": "A warm and cozy beanie for winter days.",
+        "price": 19.99,
+        "category": "Accessories",
+        "ratings": 4.6,
+        "creationDate": "2024-08-09T07:00:00Z"
+      },
+      {
+        "productName": "Slim Fit Jeans",
+        "productImage": "image25.jpg",
+        "description": "Stylish slim-fit jeans for a modern look.",
+        "price": 49.99,
+        "category": "Clothing",
+        "ratings": 4.7,
+        "creationDate": "2024-08-07T05:45:00Z"
+      },
+      {
+        "productName": "Diamond Stud Earrings",
+        "productImage": "image26.jpg",
+        "description": "Elegant diamond stud earrings for special occasions.",
+        "price": 149.99,
+        "category": "Jewelry",
+        "ratings": 4.9,
+        "creationDate": "2024-08-05T04:30:00Z"
+      },
+      {
+        "productName": "Running Shorts",
+        "productImage": "image27.jpg",
+        "description": "Lightweight and breathable running shorts.",
+        "price": 24.99,
+        "category": "Clothing",
+        "ratings": 4.4,
+        "creationDate": "2024-08-03T03:15:00Z"
+      },
+      {
+        "productName": "Luxury Watch",
+        "productImage": "image28.jpg",
+        "description": "A luxury watch with a sleek and elegant design.",
+        "price": 299.99,
+        "category": "Accessories",
+        "ratings": 4.8,
+        "creationDate": "2024-08-01T02:00:00Z"
+      }, 
+      {
+        "productName": "Casual Hoodie",
+        "productImage": "image29.jpg",
+        "description": "A comfortable hoodie perfect for casual wear.",
+        "price": 39.99,
+        "category": "Clothing",
+        "ratings": 4.5,
+        "creationDate": "2024-07-30T01:45:00Z"
+      },
+      {
+        "productName": "Suede Ankle Boots",
+        "productImage": "image30.jpg",
+        "description": "Stylish suede ankle boots with a comfortable fit.",
+        "price": 89.99,
+        "category": "Footwear",
+        "ratings": 4.6,
+        "creationDate": "2024-07-28T12:00:00Z"
+      },
+      {
+        "productName": "Leather Gloves",
+        "productImage": "image31.jpg",
+        "description": "High-quality leather gloves for a stylish winter look.",
+        "price": 29.99,
+        "category": "Accessories",
+        "ratings": 4.5,
+        "creationDate": "2024-08-15T10:00:00Z"
+      },
+      {
+        "productName": "Wool Cardigan",
+        "productImage": "image32.jpg",
+        "description": "A cozy wool cardigan perfect for layering.",
+        "price": 79.99,
+        "category": "Clothing",
+        "ratings": 4.7,
+        "creationDate": "2024-08-14T09:45:00Z"
+      },
+      {
+        "productName": "Casual Slip-Ons",
+        "productImage": "image33.jpg",
+        "description": "Comfortable slip-on shoes for everyday wear.",
+        "price": 54.99,
+        "category": "Footwear",
+        "ratings": 4.3,
+        "creationDate": "2024-08-13T08:30:00Z"
+      },
+      {
+        "productName": "Embroidered Tote Bag",
+        "productImage": "image34.jpg",
+        "description": "A stylish tote bag with beautiful embroidery.",
+        "price": 34.99,
+        "category": "Bags",
+        "ratings": 4.8,
+        "creationDate": "2024-08-12T07:15:00Z"
+      },
+      {
+        "productName": "Silver Charm Bracelet",
+        "productImage": "image35.jpg",
+        "description": "A delicate silver charm bracelet for any occasion.",
+        "price": 44.99,
+        "category": "Jewelry",
+        "ratings": 4.9,
+        "creationDate": "2024-08-11T06:00:00Z"
+      },
+      {
+        "productName": "Flannel Shirt",
+        "productImage": "image36.jpg",
+        "description": "A comfortable flannel shirt perfect for layering.",
+        "price": 29.99,
+        "category": "Clothing",
+        "ratings": 4.6,
+        "creationDate": "2024-08-10T05:45:00Z"
+      },
+      {
+        "productName": "Cotton Baseball Cap",
+        "productImage": "image37.jpg",
+        "description": "A classic cotton baseball cap for casual wear.",
+        "price": 19.99,
+        "category": "Accessories",
+        "ratings": 4.4,
+        "creationDate": "2024-08-09T04:30:00Z"
+      },
+      {
+        "productName": "Waterproof Hiking Boots",
+        "productImage": "image38.jpg",
+        "description": "Durable and waterproof hiking boots for outdoor adventures.",
+        "price": 99.99,
+        "category": "Footwear",
+        "ratings": 4.7,
+        "creationDate": "2024-08-08T03:15:00Z"
+      },
+      {
+        "productName": "Silk Pajama Set",
+        "productImage": "image39.jpg",
+        "description": "Luxurious silk pajama set for a comfortable night's sleep.",
+        "price": 149.99,
+        "category": "Clothing",
+        "ratings": 4.8,
+        "creationDate": "2024-08-07T02:00:00Z"
+      },
+      {
+        "productName": "Elegant Pearl Necklace",
+        "productImage": "image40.jpg",
+        "description": "A timeless pearl necklace that adds elegance to any outfit.",
+        "price": 129.99,
+        "category": "Jewelry",
+        "ratings": 4.9,
+        "creationDate": "2024-08-06T01:45:00Z"
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+]
