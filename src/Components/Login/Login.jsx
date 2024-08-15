@@ -1,8 +1,61 @@
+import { useContext } from "react";
 import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
+import Swal from "sweetalert2";
+import { AuthContext } from "../Provider/AuthProvider";
 
 
 const Login = () => {
+  const {signIn, signInWithGoogle, user}= useContext(AuthContext);
+  console.log(user);
+
+  const navigate = useNavigate();
+  const location= useLocation();
+  const from = location.state?.from?.pathname || '/'
+
+
+  const handleLogin = event =>{
+    event.preventDefault();
+    const form = event.target
+    const email= form.email.value;
+    const password = form.password.value;
+    console.log(email, password);
+
+    signIn(email, password)
+    .then(result=>{
+      const user =result.user;
+      console.log(user);
+
+      Swal.fire({
+        position: "top-end",
+        icon: "success",
+        title: "user joinUs successfully",
+        showConfirmButton: false,
+        timer: 1500
+      });
+
+      navigate(from, {replace: true})
+    })
+
+  }
+
+  const handleGoogleLogin = ()=>{
+    signInWithGoogle()
+    .then(result=>{
+     const user = result.user;
+     console.log(user);
+     Swal.fire({
+       position: "top-end",
+       icon: "success",
+       title: "user register successfully",
+       showConfirmButton: false,
+       timer: 1500
+     });
+     navigate(from, {replace: true})
+    }) 
+    .catch(error=>console.log(error))   
+ }
 
   
     return (
@@ -23,6 +76,7 @@ const Login = () => {
     
     <div>
       <form
+       onSubmit={handleLogin}
    
        className="card-body">
         <div className="form-control">
@@ -45,7 +99,9 @@ const Login = () => {
 
       <div>
         <h1>Continue With</h1>
-        <button><FcGoogle className="text-4xl" /></button>
+        <button><FcGoogle
+         onClick={handleGoogleLogin}
+        className="text-4xl" /></button>
       </div>
       <div>You have not account plz <span className="text-teal-400 font-bold"><Link to='/register'>Register</Link></span></div>
     </div>
