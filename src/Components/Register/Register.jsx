@@ -1,21 +1,81 @@
-import { useForm } from "react-hook-form";
+
+import { Link, useNavigate } from "react-router-dom";
+
+import axios from "axios";
+
+import Swal from "sweetalert2";
+import { useContext, useEffect, useState } from "react";
+import { AuthContext } from "../Provider/AuthProvider";
 import { FcGoogle } from "react-icons/fc";
-import { Link } from "react-router-dom";
+
+
+
 
 
 const Register = () => {
    
- 
-  const { register, handleSubmit, reset} = useForm();
-  const onSubmit =async (data) => {
-    console.log(data);
+    const{creacteUser,updateUserProfile }=useContext(AuthContext);
+    console.log(creacteUser,updateUserProfile );
+    const navigate = useNavigate();
 
     
-   
-  }
+    const handleSignUp= async e =>{
+        e.preventDefault();
+        const form = e.target;
+        const email = form.email.value;
+        const name = form.name.value;
+        const image = form.image.files[0];
+        const password= form.password.value;
 
+     
+
+        const formData =new FormData()
+        formData.append('image', image)
+    
+
+        
+
+        try{
+
+            
+       
+
+        //upload img
+           const{ data }= await axios.post(`https://api.imgbb.com/1/upload/upload?key=${import.meta.env.VITE_IMGBB_API_KEY}`,formData)
+            console.log(data.data.display_url);
+
+            
+            //user registation
+
+            const result= await creacteUser(email,password);
+            console.log(result);
+
+            //update UserProfile
+
+            await updateUserProfile (name,data.data.display_url)
+            navigate('/');
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+              });
+
+            
+        }  
+        
+        catch(err)
+        
+        {
+            console.log(err);
+          }
+      }
+   
+  
+   
  
-    return (
+    return(
         <div>
             <div>
             <div className="lg:mx-[200px] my-[60px]">
@@ -34,7 +94,7 @@ const Register = () => {
     
     <div>
       <form
-    
+     onSubmit={handleSignUp}
       
       className="card-body">
 
@@ -42,28 +102,32 @@ const Register = () => {
           <label className="label">
             <span className="label-text text-white">Name</span>
           </label>
-          <input type="text" name="name" {...register("name")} placeholder="Your name" className="input text-black input-bordered" required />
+          <input type="text" name="name" placeholder="Your name" className="input text-black input-bordered" required />
         </div>
 
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text text-white">Photo URL</span>
-          </label>
-          {/* <input type="text" name="photo" {...register("photo")} placeholder="photo url" className="input text-black input-bordered" required /> */}
-
-          <input type="file" name="photo" {...register("image")} className="file-input file-input-bordered file-input-accent w-full max-w-xs" />
+        <div>
+            <label htmlFor='image' className='block mb-2 text-sm'>
+                Select Image:
+            </label>
+            <input
+                required
+                type='file'
+                id='image'
+                name='image'
+                accept='image/*'
+            />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text text-white">Email</span>
           </label>
-          <input type="email" name="email" {...register("email")} placeholder="email" className="input text-black input-bordered" required />
+          <input type="email" name="email"  placeholder="email" className="input text-black input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
             <span className="label-text text-white">Password</span>
           </label>
-          <input type="password" name="password" {...register("password")} placeholder="password" className="input text-black input-bordered" required />
+          <input type="password" name="password" placeholder="password" className="input text-black input-bordered" required />
         
         </div>
         <div className="form-control mt-6">
@@ -73,7 +137,8 @@ const Register = () => {
 
       <div>
         <h1>Continue With</h1>
-        <button><FcGoogle  className="text-4xl" /></button>
+        <button><FcGoogle 
+         className="text-4xl" /></button>
       </div>
       <div>If you have already account plz <span className="text-teal-400 font-bold"><Link to='/login'>Join Us</Link></span></div>
     </div>

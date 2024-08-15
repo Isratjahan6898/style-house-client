@@ -7,7 +7,7 @@ import { AuthContext } from "../Provider/AuthProvider";
 
 
 const Login = () => {
-  const {signIn, signInWithGoogle, user}= useContext(AuthContext);
+  const {signIn,  signInWithGoogle, user}= useContext(AuthContext);
   console.log(user);
 
   const navigate = useNavigate();

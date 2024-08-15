@@ -2,11 +2,21 @@
 
 import { Link } from 'react-router-dom';
 import './Navbar.css'
+import { AuthContext } from '../../Provider/AuthProvider';
+import { useContext } from 'react';
 
 const Navbar = () => {
+  const {user, logOut}= useContext(AuthContext);
+  console.log(user);
+
+  const handleLogOut = ()=>{
+    logOut()
+    .then(()=>{})
+    .catch(error=>console.log(error))
+  }
  
     return (
-        <div>
+        <div className='mt-[20px]'>
            <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -27,22 +37,50 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-       
-        <li><a>Item 3</a></li>
+      <Link to='/'>
+      <p className='font-bold text-red-400'>Home</p>
+      </Link>
       </ul>
     </div>
     <a className=" text-3xl font-bold gradient-text ">Style House</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
+      <Link to='/'>
+      <p className='font-bold text-red-400'>Home</p>
+      </Link>
     
-      <li><a>Item 3</a></li>
+      
     </ul>
   </div>
   <div className="navbar-end">
-    <Link to='/login'><button className="btn bg-red-400 ">Login</button></Link>
+    {/* <Link to='/login'><button className="btn bg-red-400 ">Login</button></Link> */}
+
+    {
+        user ?
+        <>
+        
+ <div className="tooltip " data-tip={user.displayName} tabIndex={0} role="button">
+ <img src={user.photoURL}  alt="Tailwind"   className='rounded-full  w-[30px] h-[30px]' />
+ </div>
+
+<button 
+ onClick={handleLogOut}
+ 
+ className=' btn font-bold bg-red-400 mr-[20px]'>LogOut</button>
+ 
+
+ 
+
+
+        </>
+        :
+        <>
+        <Link to='/login'>
+        <button className="btn font-bold bg-red-400">Login</button>
+        </Link>
+        </>
+       }
   </div>
 
 
@@ -52,3 +90,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+//https://i.ibb.co/ScnjgzZ/pexels-maotuizhutuzi-5326767.jpg
