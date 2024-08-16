@@ -13,7 +13,7 @@ const Footer = () => {
             <footer className="footer p-10 bg-[#1F2937] text-[#FFFFFF]">
    
    <nav className="text-center">
-     <h6 className="font-extrabold text-red-800 font-lato italic text-3xl lg:text-5xl">ForumFlare</h6>
+     <h6 className="font-extrabold text-red-800 font-lato italic text-3xl lg:text-5xl">StyleHouse</h6>
      <p className="mt-[20px]">StyleHouse Ltd.<br/>Providing reliable tech since 2020</p> 
  
  

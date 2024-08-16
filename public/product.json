@@ -2,7 +2,7 @@
     {
         
             "productName": "Stylish Jacket",
-            "productImage": "image1.jpg",
+            "productImage": "https://i.ibb.co/CMKGL4G/pexels-the-5th-50003-179909.jpg",
             "description": "A stylish and warm jacket perfect for winter.",
             "price": 59.99,
             "category": "Clothing",
@@ -12,7 +12,7 @@
     },
     {
         "productName": "Elegant Silk Scarf",
-        "productImage": "image2.jpg",
+        "productImage": "https://i.ibb.co/yPSxyvp/pexels-shkrabaanthony-5264925.jpg",
         "description": "A luxurious scarf made from 100% silk.",
         "price": 29.99,
         "category": "Accessories",
@@ -21,7 +21,7 @@
       },
       {
         "productName": "Vintage Denim Jacket",
-        "productImage": "image3.jpg",
+        "productImage": "https://i.ibb.co/7kFBp3c/pexels-blue-bird-7243122.jpg",
         "description": "A classic denim jacket with a vintage look.",
         "price": 75.00,
         "category": "Clothing",
@@ -30,7 +30,7 @@
       },
       {
         "productName": "Modern Tote Bag",
-        "productImage": "image4.jpg",
+        "productImage": "https://i.ibb.co/nLgQJpq/pexels-bach-hanzo-1922634-3551355.jpg",
         "description": "A spacious and stylish tote bag for everyday use.",
         "price": 49.99,
         "category": "Bags",
@@ -39,7 +39,7 @@
       },
       {
         "productName": "Gold-Plated Necklace",
-        "productImage": "image5.jpg",
+        "productImage": "https://i.ibb.co/WpFR8Zx/pexels-arif-17298688.jpg",
         "description": "A beautiful necklace with a gold-plated finish.",
         "price": 39.99,
         "category": "Jewelry",
@@ -48,7 +48,7 @@
       },
       {
         "productName": "Running Sneakers",
-        "productImage": "image6.jpg",
+        "productImage": "https://i.ibb.co/zxQn6M1/pexels-fsoerensen-2404959.jpg",
         "description": "Comfortable and lightweight sneakers for running.",
         "price": 64.99,
         "category": "Footwear",
@@ -57,7 +57,7 @@
       },
       {
         "productName": "Leather Handbag",
-        "productImage": "image7.jpg",
+        "productImage": "https://i.ibb.co/PwkdyHc/pexels-69816215-8365688.jpg",
         "description": "A chic leather handbag for everyday use.",
         "price": 129.99,
         "category": "Bags",
@@ -66,7 +66,7 @@
       },
       {
         "productName": "Casual Cotton T-Shirt",
-        "productImage": "image8.jpg",
+        "productImage": "https://i.ibb.co/LCHFjyg/pexels-ryutaro-5746087.jpg",
         "description": "A comfortable and breathable cotton t-shirt.",
         "price": 19.99,
         "category": "Clothing",
@@ -75,7 +75,7 @@
       },
       {
         "productName": "Silver Hoop Earrings",
-        "productImage": "image9.jpg",
+        "productImage": "https://i.ibb.co/ngTGz1b/pexels-fotios-photos-16242338.jpg",
         "description": "Elegant silver hoop earrings for any occasion.",
         "price": 24.99,
         "category": "Jewelry",
@@ -84,7 +84,7 @@
       },
       {
         "productName": "Winter Wool Coat",
-        "productImage": "image10.jpg",
+        "productImage": "https://i.ibb.co/k11CGBD/pexels-katerina-katsalap-270567-847414.jpg",
         "description": "A warm and cozy wool coat for winter.",
         "price": 149.99,
         "category": "Clothing",
@@ -93,7 +93,7 @@
       },
       {
         "productName": "Stylish Fedora Hat",
-        "productImage": "image11.jpg",
+        "productImage": "https://i.ibb.co/1nMDRh6/pexels-pixabay-413960.jpg",
         "description": "A trendy fedora hat to complement any outfit.",
         "price": 34.99,
         "category": "Accessories",
@@ -102,7 +102,7 @@
       },
       {
         "productName": "Leather Belt",
-        "productImage": "image12.jpg",
+        "productImage": "https://i.ibb.co/Px9szcZ/pexels-katelyn-whitson-181007884-12901656.jpg",
         "description": "A high-quality leather belt for a polished look.",
         "price": 25.99,
         "category": "Accessories",
@@ -111,7 +111,7 @@
       },
       {
         "productName": "Graphic Tee",
-        "productImage": "image13.jpg",
+        "productImage": "https://i.ibb.co/27J4NzL/pexels-thelazyartist-1550895.jpg",
         "description": "A comfortable t-shirt with a stylish graphic design.",
         "price": 19.99,
         "category": "Clothing",
@@ -120,7 +120,7 @@
       },
       {
         "productName": "Canvas Backpack",
-        "productImage": "image14.jpg",
+        "productImage": "https://i.ibb.co/hcHsMDy/pexels-bertellifotografia-2905238.jpg",
         "description": "A durable canvas backpack for everyday use.",
         "price": 45.00,
         "category": "Bags",
@@ -129,7 +129,7 @@
       },
       {
         "productName": "Ankle Boots",
-        "productImage": "image15.jpg",
+        "productImage": "https://i.ibb.co/MSK6Xst/pexels-samabairamova-17965011.jpg",
         "description": "Stylish ankle boots with a comfortable fit.",
         "price": 89.99,
         "category": "Footwear",
@@ -138,7 +138,7 @@
       },
       {
         "productName": "Statement Necklace",
-        "productImage": "image16.jpg",
+        "productImage": "https://i.ibb.co/PTfmWJH/pexels-giallo-859895.jpg",
         "description": "A bold necklace that makes a statement.",
         "price": 39.99,
         "category": "Jewelry",
@@ -147,7 +147,7 @@
       },
       {
         "productName": "Striped Sweater",
-        "productImage": "image17.jpg",
+        "productImage": "https://i.ibb.co/VWDCxLQ/pexels-shvetsa-12662857.jpg",
         "description": "A cozy striped sweater perfect for chilly days.",
         "price": 59.99,
         "category": "Clothing",
@@ -156,7 +156,7 @@
       },
       {
         "productName": "Aviator Sunglasses",
-        "productImage": "image18.jpg",
+        "productImage": "https://i.ibb.co/5GPScNf/pexels-nitin-creative-249210.jpg",
         "description": "Classic aviator sunglasses for a cool look.",
         "price": 29.99,
         "category": "Accessories",
@@ -165,7 +165,7 @@
       },
       {
         "productName": "Leather Wallet",
-        "productImage": "image19.jpg",
+        "productImage": "https://i.ibb.co/T03xMss/pexels-vlada-karpovich-4452382.jpg",
         "description": "A sleek leather wallet with multiple compartments.",
         "price": 49.99,
         "category": "Accessories",
@@ -174,7 +174,7 @@
       },
       {
         "productName": "Wool Scarf",
-        "productImage": "image20.jpg",
+        "productImage": "https://i.ibb.co/zV4H6V8/pexels-harry-cooke-6805801.jpg",
         "description": "A warm wool scarf perfect for cold weather.",
         "price": 24.99,
         "category": "Accessories",
@@ -183,7 +183,7 @@
       },
       {
         "productName": "Classic Trench Coat",
-        "productImage": "image21.jpg",
+        "productImage": "https://i.ibb.co/wMyZ1bB/pexels-cottonbro-4057673.jpg",
         "description": "A timeless trench coat perfect for all seasons.",
         "price": 129.99,
         "category": "Clothing",
@@ -192,7 +192,7 @@
       },
       {
         "productName": "Casual Sneakers",
-        "productImage": "image22.jpg",
+        "productImage": "https://i.ibb.co/RPWbsGT/pexels-chuck-3261068.jpg",
         "description": "Comfortable sneakers for everyday wear.",
         "price": 59.99,
         "category": "Footwear",
@@ -201,7 +201,7 @@
       },
       {
         "productName": "Leather Shoulder Bag",
-        "productImage": "image23.jpg",
+        "productImage": "https://i.ibb.co/SNt7MWq/pexels-lum3n-44775-167703.jpg",
         "description": "A chic shoulder bag made from high-quality leather.",
         "price": 89.99,
         "category": "Bags",
@@ -210,7 +210,7 @@
       }, 
       {
         "productName": "Wool Beanie",
-        "productImage": "image24.jpg",
+        "productImage": "https://i.ibb.co/FzLLk7y/pexels-jill-wellington-1638660-3309663.jpg",
         "description": "A warm and cozy beanie for winter days.",
         "price": 19.99,
         "category": "Accessories",
@@ -219,7 +219,7 @@
       },
       {
         "productName": "Slim Fit Jeans",
-        "productImage": "image25.jpg",
+        "productImage": "https://i.ibb.co/MVXcYtb/pexels-dariabuntaria-3824731.jpg",
         "description": "Stylish slim-fit jeans for a modern look.",
         "price": 49.99,
         "category": "Clothing",
@@ -228,7 +228,7 @@
       },
       {
         "productName": "Diamond Stud Earrings",
-        "productImage": "image26.jpg",
+        "productImage": "https://i.ibb.co/FzMKTMB/pexels-arif-13595298.jpg",
         "description": "Elegant diamond stud earrings for special occasions.",
         "price": 149.99,
         "category": "Jewelry",
@@ -237,7 +237,7 @@
       },
       {
         "productName": "Running Shorts",
-        "productImage": "image27.jpg",
+        "productImage": "https://i.ibb.co/SwCMhj6/pexels-ardit-mbrati-216809103-16966331.jpg",
         "description": "Lightweight and breathable running shorts.",
         "price": 24.99,
         "category": "Clothing",
@@ -246,7 +246,7 @@
       },
       {
         "productName": "Luxury Watch",
-        "productImage": "image28.jpg",
+        "productImage": "https://i.ibb.co/Br6n5GW/pexels-pixabay-364822.jpg",
         "description": "A luxury watch with a sleek and elegant design.",
         "price": 299.99,
         "category": "Accessories",
@@ -255,7 +255,7 @@
       }, 
       {
         "productName": "Casual Hoodie",
-        "productImage": "image29.jpg",
+        "productImage": "https://i.ibb.co/WHHGgd2/pexels-unpoquitodefoto-26238243.jpg",
         "description": "A comfortable hoodie perfect for casual wear.",
         "price": 39.99,
         "category": "Clothing",
@@ -264,7 +264,7 @@
       },
       {
         "productName": "Suede Ankle Boots",
-        "productImage": "image30.jpg",
+        "productImage": "https://i.ibb.co/vBVf5dh/pexels-screeny42-11960413.jpg",
         "description": "Stylish suede ankle boots with a comfortable fit.",
         "price": 89.99,
         "category": "Footwear",
@@ -273,7 +273,7 @@
       },
       {
         "productName": "Leather Gloves",
-        "productImage": "image31.jpg",
+        "productImage": "https://i.ibb.co/znQp44V/pexels-dom-j-7304-45057.jpg",
         "description": "High-quality leather gloves for a stylish winter look.",
         "price": 29.99,
         "category": "Accessories",
@@ -282,7 +282,7 @@
       },
       {
         "productName": "Wool Cardigan",
-        "productImage": "image32.jpg",
+        "productImage": "https://i.ibb.co/5n2d7ph/pexels-karolina-grabowska-4210854.jpg",
         "description": "A cozy wool cardigan perfect for layering.",
         "price": 79.99,
         "category": "Clothing",
@@ -291,7 +291,7 @@
       },
       {
         "productName": "Casual Slip-Ons",
-        "productImage": "image33.jpg",
+        "productImage": "https://i.ibb.co/bgRHvNx/pexels-webdonut-19090.jpg",
         "description": "Comfortable slip-on shoes for everyday wear.",
         "price": 54.99,
         "category": "Footwear",
@@ -300,7 +300,7 @@
       },
       {
         "productName": "Embroidered Tote Bag",
-        "productImage": "image34.jpg",
+        "productImage": "https://i.ibb.co/tzN3mnf/pexels-lidamehsa-692563371-18954627.jpg",
         "description": "A stylish tote bag with beautiful embroidery.",
         "price": 34.99,
         "category": "Bags",
@@ -309,7 +309,7 @@
       },
       {
         "productName": "Silver Charm Bracelet",
-        "productImage": "image35.jpg",
+        "productImage": "https://i.ibb.co/jVLvg62/pexels-the-glorious-studio-3584518-12026055.jpg",
         "description": "A delicate silver charm bracelet for any occasion.",
         "price": 44.99,
         "category": "Jewelry",
@@ -318,7 +318,7 @@
       },
       {
         "productName": "Flannel Shirt",
-        "productImage": "image36.jpg",
+        "productImage": "https://i.ibb.co/GV1nrpT/pexels-dylanspangler-13316724.jpg",
         "description": "A comfortable flannel shirt perfect for layering.",
         "price": 29.99,
         "category": "Clothing",
@@ -327,7 +327,7 @@
       },
       {
         "productName": "Cotton Baseball Cap",
-        "productImage": "image37.jpg",
+        "productImage": "https://i.ibb.co/P6NKMtP/pexels-d-ng-thanh-tu-2922122-5693891.jpg",
         "description": "A classic cotton baseball cap for casual wear.",
         "price": 19.99,
         "category": "Accessories",
@@ -336,7 +336,7 @@
       },
       {
         "productName": "Waterproof Hiking Boots",
-        "productImage": "image38.jpg",
+        "productImage": "https://i.ibb.co/8YtZry4/pexels-lum3n-44775-167706.jpg",
         "description": "Durable and waterproof hiking boots for outdoor adventures.",
         "price": 99.99,
         "category": "Footwear",
@@ -345,7 +345,7 @@
       },
       {
         "productName": "Silk Pajama Set",
-        "productImage": "image39.jpg",
+        "productImage": "https://i.ibb.co/WcPGGWc/pexels-eteri-baghdassarian-447172408-15568974.jpg",
         "description": "Luxurious silk pajama set for a comfortable night's sleep.",
         "price": 149.99,
         "category": "Clothing",
@@ -354,7 +354,7 @@
       },
       {
         "productName": "Elegant Pearl Necklace",
-        "productImage": "image40.jpg",
+        "productImage": "https://i.ibb.co/P4mh8LZ/pexels-rahibyaqubov-17555289.jpg",
         "description": "A timeless pearl necklace that adds elegance to any outfit.",
         "price": 129.99,
         "category": "Jewelry",
