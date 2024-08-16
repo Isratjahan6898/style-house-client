@@ -9,48 +9,59 @@ const Card = () => {
     const axiosPublic = useAxiosPublic();
     const [filteredProduct, setFilteredProduct] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
+    const [searchTerm, setSearchTerm] = useState('');
     const itemsPerPage = 6; 
+    
 
-    const { data, isLoading, error } = useQuery({
-        queryKey: ['products', currentPage],
-        queryFn: async () => {
-            const res = await axiosPublic.get('/products', {
-                params: {
-                    page: currentPage,
-                    limit: itemsPerPage,
-                },
-            });
-            return res.data;
-        },
-    });
+   // Fetch products with search and pagination
+   const { data, isLoading, error } = useQuery({
+    queryKey: ['products', currentPage, searchTerm],
+    queryFn: async () => {
+        const res = await axiosPublic.get('/products', {
+            params: {
+                page: currentPage,
+                limit: itemsPerPage,
+                search: searchTerm,
+            },
+        });
+        return res.data;
+    },
+});
 
-    useEffect(() => {
-        if (data) {
-            setFilteredProduct(data.products);
-        }
-    }, [data]);
+useEffect(() => {
+    if (data) {
+        setFilteredProduct(data.products);
+    }
+}, [data]);
 
-    if (isLoading) return <p>Loading...</p>;
-    if (error) return <p>Error fetching products: {error.message}</p>;
+if (isLoading) return <p>Loading...</p>;
+if (error) return <p>Error fetching products: {error.message}</p>;
 
-    const totalPages = data?.totalPages || 1;
+const totalPages = data?.totalPages || 1;
 
-    // Pagination handlers
-    const goToNextPage = () => {
-        if (currentPage < totalPages) {
-            setCurrentPage(prev => prev + 1);
-        }
-    };
+// Pagination handlers
+const goToNextPage = () => {
+    if (currentPage < totalPages) {
+        setCurrentPage(prev => prev + 1);
+    }
+};
 
-    const goToPreviousPage = () => {
-        if (currentPage > 1) {
-            setCurrentPage(prev => prev - 1);
-        }
-    };
+const goToPreviousPage = () => {
+    if (currentPage > 1) {
+        setCurrentPage(prev => prev - 1);
+    }
+};
 
-    const goToPage = (page) => {
-        setCurrentPage(page);
-    };
+const goToPage = (page) => {
+    setCurrentPage(page);
+};
+
+const handleSearch = e =>{
+    e.preventDefault();
+    const searchText = e.target.search.value;
+    console.log(searchText);
+    setSearchTerm(searchText)
+}
 
    
 
@@ -59,6 +70,32 @@ const Card = () => {
         <div>
             <h1 className="text-center font-bold text-3xl text-red-600">Our Products</h1>
         </div>
+
+
+        {/* <div className="text-center my-4">
+                <input
+                    type="text"
+                    placeholder="Search products..."
+                    // value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    className="input input-bordered w-full max-w-xs"
+                />
+            </div> */}
+
+      <div className="text-center my-4">
+        <form 
+        onSubmit={handleSearch}
+        action="">
+            <input type="text" name="search" placeholder="Search products..."
+            className="input input-bordered w-full max-w-xs"
+            
+            />
+
+            <input type="submit" value="search" className="btn"/>
+        </form>
+      </div>
+                      
+  
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-[16px]">
             {filteredProduct.map(product => (
