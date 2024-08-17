@@ -14,7 +14,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
    
-    const{creacteUser,updateUserProfile }=useContext(AuthContext);
+    const{creacteUser,updateUserProfile, signInWithGoogle }=useContext(AuthContext);
     console.log(creacteUser,updateUserProfile );
     const navigate = useNavigate();
 
@@ -71,6 +71,23 @@ const Register = () => {
             console.log(err);
           }
       }
+
+      const handleGoogleLogin = ()=>{
+        signInWithGoogle()
+        .then(result=>{
+         const user = result.user;
+         console.log(user);
+         Swal.fire({
+           position: "top-end",
+           icon: "success",
+           title: "user register successfully",
+           showConfirmButton: false,
+           timer: 1500
+         });
+         navigate(from, {replace: true})
+        }) 
+        .catch(error=>console.log(error))   
+     }
    
   
    
@@ -138,6 +155,7 @@ const Register = () => {
       <div>
         <h1>Continue With</h1>
         <button><FcGoogle 
+        onClick={handleGoogleLogin}
          className="text-4xl" /></button>
       </div>
       <div>If you have already account plz <span className="text-teal-400 font-bold"><Link to='/login'>Join Us</Link></span></div>
